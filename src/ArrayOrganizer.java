@@ -9,6 +9,7 @@ public class ArrayOrganizer {
         result.addAll(list2);
         result.addAll(list3);
         Collections.sort(result);
+        Collections.sort(result, Collections.reverseOrder());
         return result;
     }
 
