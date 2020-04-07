@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.Collections;
+        import java.util.Collections;
 
 public class ArrayOrganizer {
 
@@ -8,7 +8,6 @@ public class ArrayOrganizer {
         result.addAll(list1);
         result.addAll(list2);
         result.addAll(list3);
-        Collections.sort(result);
         Collections.sort(result, Collections.reverseOrder());
         return result;
     }
