@@ -24,6 +24,8 @@ public class Main {
 
         System.out.println("Result => " + result);
 
+        System.out.println("Successfully reverted in Git");
+
     }
 
 }
